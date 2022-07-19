@@ -206,6 +206,10 @@
     .navbar-nav li .sub-menu a {
         padding: 20px;
     }
+    .navbar-nav li:hover .sub-menu {
+        opacity: 1;
+        visibility: visible;
+      }
     #mobile-menu-toggler {
         display: none;
     }
