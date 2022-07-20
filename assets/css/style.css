@@ -513,7 +513,7 @@ section {
 
 /* Features Start */
 .iconBox {
-  border: 5px solid #f6f7fb;
+  border: 2px solid #f6f7fb;
   border-radius: 5px;
   padding: 40px 25px;
   position: relative;
@@ -547,8 +547,8 @@ section {
 
 .iconBox:hover {
   border-color: transparent;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0 0 10px rgba(255, 114, 20, 0.5);
+          box-shadow: 0 0 10px rgba(255, 114, 20, 0.5);
 }
 
 /* Features End */
@@ -665,8 +665,18 @@ section {
 }
 
 .single-memb, .post-item {
-  border: 5px solid #f6f7fb;
+  border: 3px solid #f6f7fb;
   position: relative;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.single-memb:hover {
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 10px rgba(255, 114, 20, 0.5);
+          box-shadow: 0 0 10px rgba(255, 114, 20, 0.5);
 }
 
 .single-memb h5, .post-item h5 {
